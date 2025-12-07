@@ -1,145 +1,115 @@
 date,description,merchant,amount,category,isSubscription
-2024-01-01,Paycheck,Employer Inc,2500,Income,false
+2024-01-01,Salary Deposit,Employer,2500,Income,false
 2024-01-01,Netflix Subscription,Netflix,-15.99,Subscriptions,true
-2024-01-01,Spotify Premium,Spotify,-9.99,Subscriptions,true
-2024-01-02,Groceries at Walmart,Walmart,-82.43,Groceries,false
-2024-01-03,Coffee Shop Latte,Starbucks,-5.75,Eating Out,false
-2024-01-03,Gas Refill,Shell,-43.20,Transportation,false
-2024-01-04,Apple Music,Apple Music,-9.99,Subscriptions,true
-2024-01-04,Lunch Burrito,Chipotle,-11.50,Eating Out,false
-2024-01-05,Utility Bill,PG&E,-120.44,Bills,false
-2024-01-05,Amazon Purchase,Amazon,-46.88,Shopping,false
-2024-01-06,Refund,Amazon,12.00,Income,false
-2024-01-06,Processing Fee,Bank,-2.50,Other,false
-2024-01-07,Gym Membership,Gym,-29.99,Subscriptions,true
-2024-01-08,Online Course,Udemy,-14.99,Education,false
-2024-01-08,Dinner Sushi,Sushi House,-32.70,Eating Out,false
-2024-01-09,Grocery Run,Trader Joe's,-53.11,Groceries,false
-2024-01-10,Uber Ride,Uber,-18.22,Transportation,false
-2024-01-10,Netflix Subscription,Netflix,-15.99,Subscriptions,true
-2024-01-11,Bank Service Fee,Bank,-3.00,Other,false
-2024-01-12,Gas Station,Chevron,-41.36,Transportation,false
-2024-01-12,Paycheck,Employer Inc,2500,Income,false
-2024-01-13,Coffee,Starbucks,-6.20,Eating Out,false
-2024-01-13,New Shoes,Nike,-89.99,Shopping,false
-2024-01-14,Groceries,Walmart,-97.21,Groceries,false
-2024-01-14,Spotify Premium,Spotify,-9.99,Subscriptions,true
-2024-01-15,T-Mobile Phone Bill,T-Mobile,-80.00,Subscriptions,true
-2024-01-15,Haircut,Barbershop,-25.00,Shopping,false
-2024-01-16,Gym Membership,Gym,-29.99,Subscriptions,true
-2024-01-17,Flight Ticket,Delta,-280.40,Travel,false
-2024-01-17,Lunch Sandwich,Panera,-12.85,Eating Out,false
-2024-01-18,Grocery Store,Costco,-134.18,Groceries,false
-2024-01-19,Gas Refill,Shell,-39.11,Transportation,false
-2024-01-19,Dinner Pizza,Pizza Hut,-18.40,Eating Out,false
-2024-01-20,Utility Bill,PG&E,-121.33,Bills,false
-2024-01-21,Amazon Online Order,Amazon,-22.75,Shopping,false
-2024-01-21,Apple Music,Apple Music,-9.99,Subscriptions,true
-2024-01-22,Coffee Shop,Starbucks,-4.95,Eating Out,false
-2024-01-23,Groceries,Walmart,-63.34,Groceries,false
-2024-01-24,Lyft Ride,Lyft,-17.90,Transportation,false
-2024-01-25,Paycheck,Employer Inc,2500,Income,false
-2024-01-25,Random Charge,Bank,-3.49,Other,false
-2024-01-26,Shopping at Target,Target,-45.73,Shopping,false
-2024-01-26,Gym Membership,Gym,-29.99,Subscriptions,true
-2024-01-27,Netflix Subscription,Netflix,-15.99,Subscriptions,true
-2024-01-27,Groceries,Trader Joe's,-56.89,Groceries,false
-2024-01-28,Dinner Tacos,Taco Bell,-14.70,Eating Out,false
-2024-01-29,Coffee,Starbucks,-6.75,Eating Out,false
-2024-01-29,Spotify Premium,Spotify,-9.99,Subscriptions,true
-2024-01-30,Gas Station,Chevron,-42.18,Transportation,false
-2024-01-31,Utility Bill,PG&E,-119.87,Bills,false
-2024-02-01,Paycheck,Employer Inc,2500,Income,false
-2024-02-01,Netflix Subscription,Netflix,-15.99,Subscriptions,true
-2024-02-01,Groceries,Walmart,-88.10,Groceries,false
-2024-02-02,Gas Refill,Shell,-40.27,Transportation,false
-2024-02-02,Apple Music,Apple Music,-9.99,Subscriptions,true
-2024-02-03,Coffee,Starbucks,-5.45,Eating Out,false
-2024-02-03,Uber Ride,Uber,-16.80,Transportation,false
-2024-02-04,Gym Membership,Gym,-29.99,Subscriptions,true
-2024-02-04,Lunch Burger,McDonald's,-9.54,Eating Out,false
-2024-02-05,Electric Bill,PG&E,-118.44,Bills,false
-2024-02-06,Amazon Shopping,Amazon,-33.22,Shopping,false
-2024-02-06,Refund,Amazon,11.00,Income,false
-2024-02-07,Bank Fee,Bank,-2.75,Other,false
-2024-02-07,Spotify Premium,Spotify,-9.99,Subscriptions,true
-2024-02-08,Grocery Trip,Costco,-140.56,Groceries,false
-2024-02-09,Gas Station,Chevron,-38.77,Transportation,false
-2024-02-09,Dinner Out,Sushi House,-35.22,Eating Out,false
-2024-02-10,Netflix Subscription,Netflix,-15.99,Subscriptions,true
-2024-02-10,Paycheck,Employer Inc,2500,Income,false
-2024-02-11,Starbucks Coffee,Starbucks,-5.85,Eating Out,false
-2024-02-12,Shopping at Target,Target,-49.10,Shopping,false
-2024-02-12,Gym Membership,Gym,-29.99,Subscriptions,true
-2024-02-13,Gas Refill,Shell,-44.51,Transportation,false
-2024-02-13,Spotify Premium,Spotify,-9.99,Subscriptions,true
-2024-02-14,Lunch Wrap,Panera,-12.40,Eating Out,false
-2024-02-14,Grocery Stop,Trader Joe's,-67.30,Groceries,false
-2024-02-15,T-Mobile Phone Bill,T-Mobile,-80.00,Subscriptions,true
-2024-02-16,Coffee,Starbucks,-6.10,Eating Out,false
-2024-02-17,Flight Booking,Delta,-300.15,Travel,false
-2024-02-17,Shopping,Nike,-92.88,Shopping,false
-2024-02-18,Groceries,Walmart,-99.71,Groceries,false
-2024-02-19,Gas Refill,Shell,-39.55,Transportation,false
-2024-02-20,Utility Bill,PG&E,-120.90,Bills,false
-2024-02-20,Netflix Subscription,Netflix,-15.99,Subscriptions,true
-2024-02-21,Apple Music,Apple Music,-9.99,Subscriptions,true
-2024-02-22,Coffee,Starbucks,-4.65,Eating Out,false
-2024-02-23,Amazon Purchase,Amazon,-28.90,Shopping,false
-2024-02-24,Lyft Ride,Lyft,-16.40,Transportation,false
-2024-02-24,Gym Membership,Gym,-29.99,Subscriptions,true
-2024-02-25,Paycheck,Employer Inc,2500,Income,false
-2024-02-25,Starbucks Coffee,Starbucks,-5.30,Eating Out,false
-2024-02-26,Groceries,Costco,-152.10,Groceries,false
-2024-02-27,Dinner Pizza,Pizza Hut,-17.25,Eating Out,false
-2024-02-27,Spotify Premium,Spotify,-9.99,Subscriptions,true
-2024-02-28,Bank Charge,Bank,-3.10,Other,false
-2024-02-29,Gas Station,Chevron,-41.82,Transportation,false
-2024-03-01,Paycheck,Employer Inc,2500,Income,false
-2024-03-01,Netflix Subscription,Netflix,-15.99,Subscriptions,true
-2024-03-02,Groceries,Walmart,-85.33,Groceries,false
-2024-03-02,Gas Refill,Shell,-43.18,Transportation,false
-2024-03-03,Coffee,Starbucks,-5.90,Eating Out,false
-2024-03-03,Apple Music,Apple Music,-9.99,Subscriptions,true
-2024-03-04,Uber Ride,Uber,-19.40,Transportation,false
-2024-03-04,Gym Membership,Gym,-29.99,Subscriptions,true
-2024-03-05,Utility Bill,PG&E,-119.55,Bills,false
-2024-03-05,Dinner Out,Taco Bell,-14.10,Eating Out,false
-2024-03-06,Amazon Shopping,Amazon,-38.40,Shopping,false
-2024-03-06,Refund,Amazon,10.00,Income,false
-2024-03-07,Spotify Premium,Spotify,-9.99,Subscriptions,true
-2024-03-08,Groceries,Costco,-145.22,Groceries,false
-2024-03-09,Gas Station,Chevron,-40.75,Transportation,false
-2024-03-09,Sushi Dinner,Sushi House,-33.90,Eating Out,false
-2024-03-10,Netflix Subscription,Netflix,-15.99,Subscriptions,true
-2024-03-10,Paycheck,Employer Inc,2500,Income,false
-2024-03-11,Coffee,Starbucks,-6.05,Eating Out,false
-2024-03-12,Target Shopping,Target,-55.60,Shopping,false
-2024-03-12,Gym Membership,Gym,-29.99,Subscriptions,true
-2024-03-13,Gas Refill,Shell,-44.10,Transportation,false
-2024-03-13,Spotify Premium,Spotify,-9.99,Subscriptions,true
-2024-03-14,Lunch Wrap,Panera,-12.70,Eating Out,false
-2024-03-14,Grocery Store,Trader Joe's,-74.55,Groceries,false
-2024-03-15,T-Mobile Phone Bill,T-Mobile,-80.00,Subscriptions,true
-2024-03-16,Starbucks Coffee,Starbucks,-5.85,Eating Out,false
-2024-03-16,Flight Booking,Delta,-310.80,Travel,false
-2024-03-17,Shopping,Nike,-101.28,Shopping,false
-2024-03-17,Groceries,Walmart,-92.31,Groceries,false
-2024-03-18,Gas Refill,Shell,-40.55,Transportation,false
-2024-03-19,Utility Bill,PG&E,-121.11,Bills,false
-2024-03-20,Netflix Subscription,Netflix,-15.99,Subscriptions,true
-2024-03-20,Apple Music,Apple Music,-9.99,Subscriptions,true
-2024-03-21,Coffee,Starbucks,-4.95,Eating Out,false
-2024-03-22,Amazon Purchase,Amazon,-29.43,Shopping,false
-2024-03-22,Gym Membership,Gym,-29.99,Subscriptions,true
-2024-03-23,Lyft Ride,Lyft,-17.10,Transportation,false
-2024-03-24,Paycheck,Employer Inc,2500,Income,false
-2024-03-24,Coffee,Starbucks,-5.60,Eating Out,false
-2024-03-25,Groceries,Costco,-158.42,Groceries,false
-2024-03-26,Spotify Premium,Spotify,-9.99,Subscriptions,true
-2024-03-27,Dinner Out,Pizza Hut,-16.90,Eating Out,false
-2024-03-27,Bank Fee,Bank,-3.35,Other,false
-2024-03-28,Gas Station,Chevron,-42.77,Transportation,false
-2024-03-29,Amazon Order,Amazon,-34.60,Shopping,false
-2024-03-30,Gym Membership,Gym,-29.99,Subscriptions,true
-2024-03-31,Utility Bill,PG&E,-120.05,Bills,false
+2024-01-02,Grocery Run,Walmart,-82.43,Groceries,false
+2024-01-02,Coffee,B Starbucks,-5.75,Eating Out,false
+2024-01-03,Uber Ride,Uber,-18.50,Transportation,false
+2024-01-03,ATM Withdrawal,Chase,-60,Transfer,false
+2024-01-03,Spotify Premium,Spotify,-9.99,Subscriptions,true
+2024-01-04,Chipotle Lunch,Chipotle,-12.90,Eating Out,false
+2024-01-04,Amazon Purchase,Amazon,-45.70,Shopping,false
+2024-01-05,Phone Bill,AT&T,-75.00,Bills,true
+2024-01-05,Car Gas,Shell,-42.22,Transportation,false
+2024-01-05,YouTube Premium,YouTube,-13.99,Subscriptions,true
+2024-01-06,Doctor Visit,Kaiser,-40.00,Health & Fitness,false
+2024-01-06,Gym Membership,Planet Fitness,-25.00,Subscriptions,true
+2024-01-07,Groceries,Target,-64.32,Groceries,false
+2024-01-07,Parking Charge,City Parking,-4.50,Transportation,false
+2024-01-08,Work Lunch,Jersey Mike's,-14.89,Eating Out,false
+2024-01-08,Small Bank Fee,Chase,-1.75,Other,false
+2024-01-08,Rent Payment,Apartment,-1200.00,Bills,false
+2024-01-09,Movie Tickets,AMC,-27.50,Entertainment,false
+2024-01-09,Apple iCloud,Apple,-2.99,Subscriptions,true
+2024-01-10,Laundry Wash,Laundry Pro,-6.25,Other,false
+2024-01-10,Amazon Order,Amazon,-23.44,Shopping,false
+2024-01-11,Bus Ticket,City Transit,-2.75,Transportation,false
+2024-01-11,McDonalds Meal,McDonalds,-9.88,Eating Out,false
+2024-01-12,Pet Food,PetSmart,-36.20,Shopping,false
+2024-01-12,PlayStation Plus,Sony,-9.99,Subscriptions,true
+2024-01-13,Groceries,Costco,-102.55,Groceries,false
+2024-01-13,Credit Card Fee,Visa,-3.00,Other,false
+2024-01-14,Lunch,Panda Express,-11.45,Eating Out,false
+2024-01-14,Uber Ride,Uber,-17.20,Transportation,false
+2024-01-15,Internet Bill,Xfinity,-69.99,Bills,true
+2024-01-15,Small Charge?,Unknown Corp,-1.10,Other,false
+2024-01-16,Donation,Red Cross,-25.00,Other,false
+2024-01-16,Amazon Essentials,Amazon,-14.20,Shopping,false
+2024-01-17,Gas Station,Chevron,-38.40,Transportation,false
+2024-01-17,Subway Meal,Subway,-8.75,Eating Out,false
+2024-01-18,Groceries,Safeway,-53.60,Groceries,false
+2024-01-18,Insider Fee?,Bank Fee,-2.00,Other,false
+2024-01-19,Spotify Premium,Spotify,-9.99,Subscriptions,true
+2024-01-19,Movie Rental,Apple,-5.99,Entertainment,false
+2024-01-20,Taxi Ride,Uber,-22.80,Transportation,false
+2024-01-20,Amazon Electronics,Amazon,-89.99,Shopping,false
+2024-01-21,Brunch,Café Rio,-18.40,Eating Out,false
+2024-01-22,Gym Membership,Planet Fitness,-25.00,Subscriptions,true
+2024-01-22,Snack,7-Eleven,-3.49,Groceries,false
+2024-01-23,Doctor Co-pay,Kaiser,-20.00,Health & Fitness,false
+2024-01-23,Steam Game,Steam,-19.99,Entertainment,false
+2024-01-24,Bus Ticket,City Transit,-2.75,Transportation,false
+2024-01-24,Parking Ticket,City Parking,-45.00,Transportation,false
+2024-01-25,Coffee,Starbucks,-6.15,Eating Out,false
+2024-01-26,YouTube Premium,YouTube,-13.99,Subscriptions,true
+2024-01-26,Groceries,Walmart,-73.28,Groceries,false
+2024-01-27,Amazon Return Refund,Amazon,24.99,Income,false
+2024-01-27,Pet Toys,PetSmart,-12.99,Shopping,false
+2024-01-28,Gas Station,Shell,-41.10,Transportation,false
+2024-01-29,Netflix Subscription,Netflix,-15.99,Subscriptions,true
+2024-01-29,Smoothie,Jamba Juice,-7.45,Eating Out,false
+2024-01-30,Uber Ride,Uber,-19.60,Transportation,false
+2024-01-30,Amazon Books,Amazon,-32.85,Shopping,false
+2024-01-31,Phone Bill,AT&T,-75.00,Bills,true
+2024-02-01,Salary Deposit,Employer,2500,Income,false
+2024-02-01,Grocery Run,Walmart,-98.12,Groceries,false
+2024-02-01,Spotify Premium,Spotify,-9.99,Subscriptions,true
+2024-02-02,Chipotle Meal,Chipotle,-12.65,Eating Out,false
+2024-02-02,Uber Ride,Uber,-18.35,Transportation,false
+2024-02-03,Netflix Subscription,Netflix,-15.99,Subscriptions,true
+2024-02-03,Electric Bill,Utility Co,-110.23,Bills,false
+2024-02-04,Coffee,Starbucks,-5.35,Eating Out,false
+2024-02-04,Amazon Items,Amazon,-44.68,Shopping,false
+202202-02-05,Gas Station,Chevron,-43.20,Transportation,false
+2024-02-05,Doctor Visit,Kaiser,-40.00,Health & Fitness,false
+2024-02-06,Lunch,Taco Bell,-9.25,Eating Out,false
+2024-02-07,Internet Bill,Xfinity,-69.99,Bills,true
+2024-02-07,Bus Ticket,City Transit,-2.75,Transportation,false
+2024-02-08,Credit Fee,Visa,-3.00,Other,false
+2024-02-08,Groceries,Safeway,-57.10,Groceries,false
+2024-02-09,Movie Night,AMC,-29.70,Entertainment,false
+2024-02-09,Uber Ride,Uber,-17.80,Transportation,false
+2024-02-10,Amazon Electronics,Amazon,-120.99,Shopping,false
+2024-02-11,Brunch,Café Rio,-18.40,Eating Out,false
+2024-02-12,Small Charge?,Unknown Corp,-1.50,Other,false
+2024-02-13,ATM Withdrawal,Chase,-40.00,Transfer,false
+2024-02-13,Gas Station,Shell,-38.45,Transportation,false
+2024-02-14,Gift Purchase,Target,-25.00,Shopping,false
+2024-02-14,Steam Game,Steam,-19.99,Entertainment,false
+2024-02-15,Spotify Premium,Spotify,-9.99,Subscriptions,true
+2024-02-15,Coffee,Starbucks,-5.90,Eating Out,false
+2024-02-16,Groceries,Walmart,-88.11,Groceries,false
+2024-02-16,Laundry,Laundromat,-6.00,Other,false
+2024-02-17,Uber Ride,Uber,-19.12,Transportation,false
+2024-02-18,Phone Bill,AT&T,-75.00,Bills,true
+2024-02-19,Pet Food,PetSmart,-34.60,Shopping,false
+2024-02-19,YouTube Premium,YouTube,-13.99,Subscriptions,true
+2024-02-20,Coffee,Starbucks,-5.35,Eating Out,false
+2024-02-21,Travel Booking,Expedia,-240.00,Travel,false
+2024-02-21,Taxi Ride,Uber,-22.10,Transportation,false
+2024-02-22,Groceries,Costco,-101.45,Groceries,false
+2024-02-22,Credit Fee,Visa,-3.00,Other,false
+2024-02-23,Doctor Co-pay,Kaiser,-20.00,Health & Fitness,false
+2024-02-24,Snack,7-Eleven,-3.15,Groceries,false
+2024-02-25,Amazon Items,Amazon,-54.33,Shopping,false
+2024-02-25,Gym Membership,Planet Fitness,-25.00,Subscriptions,true
+2024-02-26,ATM Withdrawal,Chase,-60.00,Transfer,false
+2024-02-27,Parking Charge,City Parking,-4.50,Transportation,false
+2024-02-27,Movie Rental,Apple,-5.99,Entertainment,false
+2024-02-28,Gas Station,Shell,-39.20,Transportation,false
+2024-02-28,Lunch,Panda Express,-11.75,Eating Out,false
+2024-02-29,Internet Bill,Xfinity,-69.99,Bills,true
+2024-03-01,Salary Deposit,Employer,2500,Income,false
+2024-03-01,Groceries,Target,-78.30,Groceries,false
+2024-03-01,Spotify Premium,Spotify,-9.99,Subscriptions,true
+2024-03-02,Uber Ride,Uber,-18.80,Transportation,false
+2024-03-02,Gym Membership,Planet Fitness,-25.00,Subscriptions,true

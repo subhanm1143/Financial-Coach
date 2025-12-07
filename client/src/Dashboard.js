@@ -306,7 +306,7 @@ const [grayCharges, setGrayCharges] = useState([]);
         </div>
         <div className="dashboard-month">
           <span>Current view</span>
-          <strong>{currentMonthLabel || "Current month"}</strong>
+          <strong>December 2025</strong>
         </div>
       </header>
 

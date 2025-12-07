@@ -175,11 +175,13 @@ app.get("/api/dashboard-summary", async (req, res) => {
         const requiredPerMonth = goal.targetAmount / monthsLeft;
 
         return {
-          ...goal.toObject(),
-          monthsLeft,
-          requiredPerMonth,
-          avgMonthlySavings: 0,
-          status: "unknown",
+        ...goal.toObject(),
+        monthsLeft,
+        requiredPerMonth,
+        avgMonthlySavings: 0,
+        amountSavedSoFar: 0,
+        progressPct: 0,
+        status: "unknown",
         };
       });
 
