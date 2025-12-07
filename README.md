@@ -5,6 +5,8 @@ You can upload a CSV of transactions, see summarized spending, detect subscripti
 
 ---
 
+Video Link: https://youtu.be/Bp-XDyO6WDA
+
 ## 1. Prerequisites
 
 Before running the project, make sure you have:
