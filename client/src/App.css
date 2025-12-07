@@ -1,0 +1,589 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background-color: #050816;
+  color: #f9fafb;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+/* Dashboard layout */
+.dashboard {
+  width: 100%;
+  max-width: 1100px;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+/* Header */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.dashboard-header p {
+  margin: 4px 0 0;
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+.dashboard-month {
+  text-align: right;
+  font-size: 14px;
+}
+
+.dashboard-month span {
+  display: block;
+  color: #9ca3af;
+}
+
+.dashboard-month strong {
+  display: block;
+  margin-top: 2px;
+}
+
+/* Hero grid (center circle + notes) */
+.dashboard-main {
+  position: relative;
+  height: 520px;
+  border-radius: 16px;
+  background: radial-gradient(circle at top left, #111827, #020617);
+  border: 1px solid #111827;
+  padding: 16px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Note cards */
+.note-card {
+  position: absolute;
+  width: 260px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background-color: rgba(15, 23, 42, 0.96);
+  border: 1px solid #1f2937;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+  font-size: 13px;
+}
+
+.note-card h2 {
+  margin: 0 0 4px;
+  font-size: 14px;
+}
+
+.note-subtitle {
+  margin: 0 0 8px;
+  color: #9ca3af;
+  font-size: 12px;
+}
+
+.note-list {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 0;
+}
+
+.note-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.note-list.small li {
+  justify-content: flex-start;
+  color: #e5e7eb;
+}
+
+.note-list.small li::before {
+  content: "• ";
+  margin-right: 4px;
+}
+
+.note-footer {
+  margin-top: 8px;
+  padding-top: 6px;
+  border-top: 1px solid #1f2937;
+  color: #9ca3af;
+  font-size: 12px;
+}
+
+.note-highlight {
+  font-weight: 600;
+  margin: 4px 0;
+}
+
+.note-text {
+  margin: 4px 0;
+  color: #e5e7eb;
+}
+
+.muted {
+  color: #9ca3af;
+  font-size: 11px;
+}
+
+/* Position of note cards */
+.top-left {
+  top: 16px;
+  left: 16px;
+}
+
+.top-right {
+  top: 16px;
+  right: 16px;
+}
+
+.bottom-left {
+  bottom: 16px;
+  left: 16px;
+}
+
+.bottom-right {
+  bottom: 16px;
+  right: 16px;
+}
+
+/* Center circle */
+.center-circle {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 4px solid #22c55e;
+  background-color: #020617;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 40px rgba(34, 197, 94, 0.3);
+  text-align: center;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.circle-label {
+  margin: 0 0 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 10px;
+  color: #9ca3af;
+}
+
+.circle-amount {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.circle-caption {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+/* Bottom section */
+.dashboard-bottom {
+  margin-top: 24px;
+}
+
+/* Metrics row */
+.metrics-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.metric-card {
+  flex: 1 1 0;
+  min-width: 180px;
+  background-color: #020617;
+  border-radius: 12px;
+  border: 1px solid #111827;
+  padding: 12px 14px;
+  box-sizing: border-box;
+}
+
+.metric-label {
+  margin: 0 0 4px;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.metric-value {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.metric-caption {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.metric-caption .good {
+  color: #22c55e;
+}
+
+/* Bottom panels */
+.bottom-panels {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.panel {
+  flex: 1 1 0;
+  min-width: 260px;
+  background-color: #020617;
+  border-radius: 12px;
+  border: 1px solid #111827;
+  padding: 14px 16px;
+  box-sizing: border-box;
+}
+
+.panel h3 {
+  margin: 0 0 4px;
+  font-size: 15px;
+}
+
+.panel-subtitle {
+  margin: 0 0 8px;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.coach-feed ul {
+  list-style: disc;
+  margin: 6px 0 0;
+  padding-left: 18px;
+  font-size: 13px;
+}
+
+.coach-feed li {
+  margin-bottom: 6px;
+}
+
+/* Security panel */
+.security-panel ul {
+  list-style: disc;
+  margin: 6px 0 10px;
+  padding-left: 18px;
+  font-size: 13px;
+}
+
+.upload-placeholder {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed #1f2937;
+  font-size: 13px;
+}
+
+.upload-title {
+  margin: 0 0 4px;
+  font-weight: 600;
+}
+
+.upload-text {
+  margin: 0 0 8px;
+  color: #9ca3af;
+  font-size: 12px;
+}
+
+.disabled-button {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #374151;
+  background-color: #111827;
+  color: #9ca3af;
+  font-size: 12px;
+  cursor: not-allowed;
+}
+
+/* Basic responsiveness */
+@media (max-width: 900px) {
+  .dashboard-main {
+    height: auto;
+    padding-bottom: 260px;
+  }
+
+  .note-card {
+    position: static;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .center-circle {
+    position: relative;
+    margin-top: 12px;
+  }
+}
+/* TABLE WRAPPER */
+.transactions-table-container {
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #111827; /* Dark background */
+  border: 1px solid #1f2937;
+}
+
+/* TABLE */
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #e5e7eb; /* Light gray text */
+}
+
+/* HEADER */
+.transactions-table thead th {
+  background: #1f2937;
+  color: #9ca3af;
+  font-weight: 600;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #374151;
+}
+
+/* BODY ROWS */
+.transactions-table tbody tr {
+  background: #111827; /* Default dark row */
+  transition: background 0.15s ease;
+}
+
+/* HOVER FIX — DO NOT TURN WHITE */
+.transactions-table tbody tr:hover {
+  background: #1f2937; /* Slightly lighter, but still dark */
+}
+
+/* CELLS */
+.transactions-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #1f2937;
+  color: #d1d5db; /* Light gray text */
+}
+
+/* AMOUNT COLORS */
+.amount-negative {
+  color: #f87171; /* Red */
+  font-weight: 500;
+}
+
+.amount-positive {
+  color: #4ade80; /* Green */
+  font-weight: 500;
+}
+
+/* Center Yes/No subscription badge */
+.subscription-badge {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.subscription-yes {
+  background: #05966933;
+  color: #10b981;
+}
+
+.subscription-no {
+  background: #6b728033;
+  color: #9ca3af;
+}
+.goals-section {
+  margin-top: 24px;
+  padding: 16px 0;
+}
+
+.goals-section h2 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #e5e7eb;
+}
+
+.goals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.goal-card {
+  background: #0b1120;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.goal-card h3 {
+  margin: 0 0 6px;
+  font-size: 0.95rem;
+  color: #f9fafb;
+}
+
+.goal-meta {
+  margin: 2px 0;
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+.goal-meta strong {
+  color: #e5e7eb;
+}
+
+.goal-status {
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.goal-status.on_track {
+  color: #4ade80;
+}
+
+.goal-status.behind {
+  color: #f97373;
+}
+
+.goal-status.unknown {
+  color: #9ca3af;
+}
+
+.goal-insight-box {
+  margin-top: 8px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: #020617;
+  border: 1px dashed #374151;
+  font-size: 0.85rem;
+  color: #d1d5db;
+}
+.goal-form {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: #020617;
+  border: 1px solid #1f2937;
+}
+
+.goal-form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.goal-form-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 180px;
+}
+
+.goal-form-field label {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin-bottom: 0.25rem;
+}
+
+.goal-form-field input {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #374151;
+  background: #020617;
+  color: #e5e7eb;
+  font-size: 0.9rem;
+}
+
+.goal-form-field input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+.goal-form-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.goal-form-actions button {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: none;
+  background: #4f46e5;
+  color: #f9fafb;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.goal-form-actions button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.goal-form-message {
+  font-size: 0.8rem;
+}
+
+.goal-form-message.error {
+  color: #f97373;
+}
+
+.goal-form-message.success {
+  color: #4ade80;
+}
+.goal-progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #ddd;
+  border-radius: 5px;
+  margin: 6px 0;
+}
+
+.goal-progress-fill {
+  height: 100%;
+  background: #4ade80;
+  border-radius: 5px;
+}
+/* Center cards above/below circle */
+.note-card.top-center {
+  position: absolute;
+  top: 0;                  /* tweak based on layout */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 260px;           /* matches your other note cards */
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.note-card.bottom-center {
+  position: absolute;
+  bottom: 0;              /* tweak if needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 260px;
+  max-height: 200px;
+  overflow-y: auto;
+}
